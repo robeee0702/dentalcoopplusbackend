@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@forestadmin/agent": "^1.0.0-beta.47",
+    "@forestadmin/datasource-mongoose": "^1.0.0-beta.15",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "handlebars": "^4.7.7",
+    "mailgun-js": "^0.22.0",
+    "nodemailer": "^6.7.8",
+    "uuid": "^8.3.2"
+  },
+  "compilerOptions": {
+    "esModuleInterop": true
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
